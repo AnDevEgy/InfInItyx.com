@@ -252,6 +252,73 @@ header .fa-bars{
     box-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.548);
 }
 
+.championships{
+    background:#f0f0f0;
+    min-height: 100vh;
+    margin-bottom: 30px;
+}
+
+.championships .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin:0 auto;
+}
+
+.championships .box-container .box{
+    flex:1 1 25rem;
+    padding:2rem 1rem;
+    text-align: center;
+    background:#fff;
+    border:.2rem solid var(--green);
+    margin:2rem;
+}
+
+.championships .box-container .box i{
+    color: var(--green);
+    font-size: 4rem;
+    padding:1rem 0;
+}
+
+.championships .box-container .box h3{
+    color: var(--color2);
+    font-size: 2rem;
+}
+
+.championships .box-container .box p{
+    color: var(--color2);
+    font-size: 1.6rem;
+    padding:1rem 0;
+}
+
+.championships .box-container .box p .vs{
+    color: var(--green);
+}
+
+.championships .box-container .box:hover{
+    box-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.548);
+}
+
+.championships .box-container .content h3{
+    font-size: 3rem;
+    color:var(--green);
+    text-align: center;
+}
+
+.championships .box-container .content p{
+    font-size: 1.8rem;
+    color:var(--color2);
+    padding:1rem 0;
+    text-align: right;
+}
+
+.championships .box-container .box p .del-name{
+    text-decoration: line-through var(--green);
+    text-decoration-thickness: 3px;
+}
+
 .post{
     min-height: 100vh;
     background:#f0f0f0;
