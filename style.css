@@ -258,6 +258,12 @@ header .fa-bars{
     margin-bottom: 30px;
 }
 
+.championships .title{
+    color: var(--color2);
+    text-align: center;
+    font-size: 1.7rem;
+}
+
 .championships .box-container{
     display: flex;
     align-items: center;
